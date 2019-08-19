@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#content {
+    padding: 60px;
+}
+.icon{
+    width: 100%;
+	float:right;
+}
+.icon img {
+    padding-top: 25px;
+    padding-left: 25px;
+    float: left;
+}
+.icon ul{
+    width: 60%;
+    float: right;
+	list-style-type:none;
+}
+.icon li{
+	float:right;
+	margin:3px;
+}
+
+.fa{
+	text-align:center;
+	padding:15px;
+	color:white;
+	display:block;
+	background:#3B5998;
+	border-radius:40%;
+}
+.fa-facebook{
+	padding-left:18px;
+	padding-right:18px;
+}
+.fa:hover{
+	opacity:0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+	background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
+.top{
+	width:100%;
+	background-color:grey;
+	border-bottom:4px solid #f0f0f0;
+    box-sizing: border-box;
+}
+.top div{
+	width:100%;
+	color:#fff;
+	background-color:gray!important;
+	font-family:calibri;
+	text-align:right;
+    box-sizing: border-box;
+}
+
+#fidato {
+    height: 40px;
+    margin-left: 370px;
+   
+}   
+#fidato input[type="search"]{
+    padding: 4px;
+    height: 40px;
+    width: 600px;
+  }
+  #fidato ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  #fidato ul li{
+    float: left;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  #fidato ul li a{
+    text-decoration: none;
+    display: block;
+  }
+  #fidato ul li a:hover{
+     background-color:lightblue;
+  }
+  #fidato ul li ul li{
+    display: none;
+    opacity: .8;
+  }
+  #fidato ul li:hover ul li{
+    display: block;
+  }
+  
+  
+  button{
+      width:550px;
+      padding:10px;
+      color:#fff;
+      font-size:20px;
+      background-color:#2FA5EB;
+  }
+#slideDiv {
+    position: relative;
+    margin-top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+  
